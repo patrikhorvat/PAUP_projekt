@@ -6,7 +6,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace PAUP_projekt.Models
 {
-    // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
+    // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
@@ -29,5 +29,11 @@ namespace PAUP_projekt.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<PAUP_projekt.Models.Kategorija> Kategorijas { get; set; }
+
+        public System.Data.Entity.DbSet<PAUP_projekt.Models.Struka> Strukas { get; set; }
+
+        public System.Data.Entity.DbSet<PAUP_projekt.Models.Rad> Rads { get; set; }
     }
 }
