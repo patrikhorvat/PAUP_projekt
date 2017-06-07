@@ -282,11 +282,13 @@
     <Content Include="Views\Strukas\Index.cshtml" />
     <Content Include="Views\Home\Dodaj.cshtml" />
     <Content Include="Views\Home\Delete.cshtml" />
+    <Content Include="Views\Kategorijas\Create.cshtml" />
+    <Content Include="Views\Kategorijas\Delete.cshtml" />
+    <Content Include="Views\Kategorijas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Kategorijas\" />
     <Folder Include="Views\Rads1\" />
     <Folder Include="Views\Rads\" />
   </ItemGroup>
