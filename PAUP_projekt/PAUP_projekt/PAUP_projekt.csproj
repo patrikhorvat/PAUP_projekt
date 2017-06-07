@@ -287,12 +287,12 @@
     <Content Include="Views\Kategorijas\Index.cshtml" />
     <Content Include="Views\Kategorijas\Edit.cshtml" />
     <Content Include="Views\Kategorijas\Details.cshtml" />
+    <Content Include="Views\Rads\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Admin\" />
     <Folder Include="Views\Rads1\" />
-    <Folder Include="Views\Rads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
