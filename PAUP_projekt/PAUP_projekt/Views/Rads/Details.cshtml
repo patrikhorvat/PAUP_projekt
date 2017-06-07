@@ -1,0 +1,58 @@
+﻿@model PAUP_projekt.Models.Rad
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Rad</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KategorijaIme.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KategorijaIme.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StrukaIme.ImeStruke)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StrukaIme.ImeStruke)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Path)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Path)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Korisnik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Korisnik)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

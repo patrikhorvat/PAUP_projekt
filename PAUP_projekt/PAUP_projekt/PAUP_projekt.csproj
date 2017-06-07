@@ -288,6 +288,9 @@
     <Content Include="Views\Kategorijas\Edit.cshtml" />
     <Content Include="Views\Kategorijas\Details.cshtml" />
     <Content Include="Views\Rads\Index.cshtml" />
+    <Content Include="Views\Rads\Create.cshtml" />
+    <Content Include="Views\Rads\Edit.cshtml" />
+    <Content Include="Views\Rads\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
