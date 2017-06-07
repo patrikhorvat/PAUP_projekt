@@ -291,11 +291,12 @@
     <Content Include="Views\Rads\Create.cshtml" />
     <Content Include="Views\Rads\Edit.cshtml" />
     <Content Include="Views\Rads\Details.cshtml" />
+    <Content Include="Views\Rads\Delete.cshtml" />
+    <Content Include="Views\Rads1\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Admin\" />
-    <Folder Include="Views\Rads1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
