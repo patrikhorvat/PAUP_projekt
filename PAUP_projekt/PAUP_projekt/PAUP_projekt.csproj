@@ -296,6 +296,7 @@
     <Content Include="Views\Rads1\Details.cshtml" />
     <Content Include="Views\Admin\Home.cshtml" />
     <Content Include="Views\Rads1\Edit.cshtml" />
+    <Content Include="Views\Rads1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
