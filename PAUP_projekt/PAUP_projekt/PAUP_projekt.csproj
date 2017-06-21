@@ -297,6 +297,7 @@
     <Content Include="Views\Admin\Home.cshtml" />
     <Content Include="Views\Rads1\Edit.cshtml" />
     <Content Include="Views\Rads1\Index.cshtml" />
+    <Content Include="Views\Strukas\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
