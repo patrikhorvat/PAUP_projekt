@@ -1,0 +1,61 @@
+﻿@model IEnumerable<PAUP_FS.Models.Rad>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Napravi novi", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KategorijaIme.Ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StrukaIme.ImeStruke)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Path)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Korisnik)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.KategorijaIme.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StrukaIme.ImeStruke)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Path)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Korisnik)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @if (item.Zahtjev == true)
+            {
+                <p>zahtjev predan</p>
+            }
+        </td>
+    </tr>
+}
+
+</table>
